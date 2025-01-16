@@ -37,6 +37,6 @@ export default class mainScene extends Phaser.Scene{
         //when moving x and y the speed is sqrt(2)times to manage and maintain constant speed using normalize()
         playerVelocity.normalize();
         playerVelocity.scale(speed);
-        this.player.setVelocity(playerVelocity.x,playerVelocity.y);
+        this.player.setVelocity(playerVelocity.x,playerVelocity.y)
     }
 }
